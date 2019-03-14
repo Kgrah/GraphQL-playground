@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/99designs/gqlgen/handler"
-	"github.com/kgrah/gqlgen-todos"
+	gqlgen_todos "github.com/kgrah/gqlgen-todos"
 )
 
-const defaultPort = "8080"
+const defaultPort = "4900"
 
 func main() {
 	port := os.Getenv("PORT")
